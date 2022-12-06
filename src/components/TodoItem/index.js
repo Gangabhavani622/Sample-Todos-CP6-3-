@@ -3,7 +3,7 @@ const TodoItem = props => {
   const {todoItem, deleteTodo} = props
   const {id, title} = todoItem
 
-  onDeleteItem = () => {
+  const onDeleteItem = () => {
     deleteTodo(id)
   }
 
