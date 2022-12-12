@@ -1,4 +1,6 @@
 // Write your code her
+import './index.css'
+
 const TodoItem = props => {
   const {todoItem, deleteTodo} = props
   const {id, title} = todoItem
