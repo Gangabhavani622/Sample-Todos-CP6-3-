@@ -11,7 +11,7 @@ const TodoItem = props => {
     <li>
       <div className="list-style">
         <p className="title">{title}</p>
-        <button type="button" className="button" onClick={onDeleteItem()}>
+        <button type="button" className="button" onClick={onDeleteItem}>
           Delete
         </button>
       </div>
