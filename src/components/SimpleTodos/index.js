@@ -59,7 +59,7 @@ class SimpleTodos extends Component {
               <TodoItem
                 todoItem={eachTodo}
                 key={eachTodo.id}
-                deleteTodo={this.deleteTodoItem()}
+                deleteTodo={this.deleteTodoItem}
               />
             ))}
           </ul>
